@@ -1,6 +1,5 @@
 MedCare is a healthcare application that makes online medical services seamless, accurate, fast, and reliable. It aims to create an ecosystem that makes healthcare accessible to everyone. By utilizing intelligent technology, MedCare provides cutting-edge healthcare solutions.
 
-<<<<<<< HEAD
 ##Problem MedCare Solves
 MedCare addresses the inefficiencies in healthcare accessibility by streamlining patient-provider communication, digitizing prescriptions, checking symptoms with AI-based tools, predicting health insurance charges, and offering personalized diet recommendations. The platform enhances the healthcare experience, making it fast, reliable, and accessible to users anywhere.
 
