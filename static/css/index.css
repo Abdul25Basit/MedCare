@@ -1,0 +1,128 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/static/images/bg4.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Changed to cover for better image fit */
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right-sec {
+    padding-right: 110px;
+}
+
+main .left-sec {
+    padding-left: 100px;
+}
+
+figure {
+    padding-top: 20%;
+}
+
+.left-sec h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #333; /* Darker color for better readability */
+    margin-top: 100px;
+}
+
+hr {
+    border: 1px solid #455A64;
+    width: 300px;
+}
+
+.left-sec h1 {
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #2C3E50; /* Darker shade for a more professional look */
+}
+
+.left-sec p {
+    margin-bottom: 20px;
+    color: #555; /* Softer gray for text */
+}
+
+.button3 {
+    background-color: #E8505B; /* Brighter red for emphasis */
+    color: #fff;
+    border-radius: 60px; 
+    width: 200px;
+    height: 50px;
+    border: none;
+    transition: background-color 0.3s; /* Added transition for hover effect */
+}
+
+.button3:hover {
+    background-color: #BF2130; /* Darker shade on hover */
+}
+
+/* Icons */
+#h, i {
+    color: #E8505B; /* Consistent accent color */
+}
+
+.header-extradiv {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center; 
+}
+
+.extra-div {
+    background: #fff;
+    border: none; 
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+#something {
+    padding-bottom: 100px; /* Fixed negative padding */
+}
+
+/* Footer */
+.footersection {
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px;
+    background: #BF2130; /* Darker red for footer */
+    position: relative;
+}
+
+.footersection p {
+    color: #fff;
+}
+
+.footersection li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff; /* Keep footer text white for readability */
+    text-transform: capitalize;
+    transition: color 0.3s; /* Added transition for hover effect */
+}
+
+.footersection li a:hover {
+    color: #F0C3C4; /* Lighten color on hover for visibility */
+}
