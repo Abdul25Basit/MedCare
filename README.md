@@ -1,5 +1,6 @@
 MedCare is a healthcare application that makes online medical services seamless, accurate, fast, and reliable. It aims to create an ecosystem that makes healthcare accessible to everyone. By utilizing intelligent technology, MedCare provides cutting-edge healthcare solutions.
 
+<<<<<<< HEAD
 ##Problem MedCare Solves
 MedCare addresses the inefficiencies in healthcare accessibility by streamlining patient-provider communication, digitizing prescriptions, checking symptoms with AI-based tools, predicting health insurance charges, and offering personalized diet recommendations. The platform enhances the healthcare experience, making it fast, reliable, and accessible to users anywhere.
 
@@ -15,6 +16,23 @@ Healthcare Appointments: Bridges the communication gap between healthcare provid
 ##Diet Recommendation System: Provides personalized nutritional recommendations for the user's well-being.
 
 ##Technologies Used
+=======
+Problem MedCare Solves
+MedCare addresses the inefficiencies in healthcare accessibility by streamlining patient-provider communication, digitizing prescriptions, checking symptoms with AI-based tools, predicting health insurance charges, and offering personalized diet recommendations. The platform enhances the healthcare experience, making it fast, reliable, and accessible to users anywhere.
+
+Features
+Healthcare Appointments: Bridges the communication gap between healthcare providers and patients with a smart appointment reminder system using WhatsApp.
+
+Digital Prescription: Digitalizes prescriptions for easy access via WhatsApp, eliminating the challenge of reading handwritten prescriptions.
+
+Symptom Checker: A machine learning-based technique that provides a prognosis based on the patient's symptoms, along with precautions and recommended medications.
+
+Health-Insurance Charges Prediction: Offers plausible predictions of applicable insurance charges based on the user's health information.
+
+Diet Recommendation System: Provides personalized nutritional recommendations for the user's well-being.
+
+Technologies Used
+>>>>>>> 188e9fa7de25c4ea5fa470019ee77c1e1302c187
 Django
 JavaScript
 Machine Learning
