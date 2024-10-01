@@ -54,72 +54,18 @@ MedCare is built using a modern web architecture with the following components:
 - PostgreSQL or SQLite
 - Twilio account
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/Abdul25Basit/MedCare.git
+# Clone the repository
+git clone https://github.com/yourusername/MedCare.git
 cd MedCare
-Backend Setup
-Navigate to the backend directory (if applicable):
 
-bash
-Copy code
+# Backend Setup
 cd backend  # Adjust this path as needed
-Install dependencies:
+pip install -r requirements.txt  # Install dependencies
+python manage.py migrate  # Run migrations (if using a database)
+python manage.py runserver &  # Start the backend server (use '&' to run in the background)
 
-bash
-Copy code
-pip install -r requirements.txt
-Run migrations (if using a database):
+# Frontend Setup
+cd ../frontend  # Adjust this path as needed
+npm install  # Install Node.js dependencies
+npm start  # Start the React development server
 
-bash
-Copy code
-python manage.py migrate
-Start the backend server:
-
-bash
-Copy code
-python manage.py runserver
-Frontend Setup
-Navigate to the frontend directory (if applicable):
-
-bash
-Copy code
-cd frontend  # Adjust this path as needed
-Install Node.js dependencies:
-
-bash
-Copy code
-npm install
-Start the React development server:
-
-bash
-Copy code
-npm start
-Usage
-Starting the Application
-Ensure that the database is running (if applicable).
-Start the backend server.
-Launch the frontend React app.
-Accessing the Application
-Frontend: http://localhost:3000
-Backend API: http://localhost:8000
-Screenshots
-Here are some screenshots of the application:
-
-Home Page:
-
-
-Appointment Page:
-
-Symptom Checker:
-
-Diet Recommendations:
-
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes.
-Submit a pull request with a clear description of your changes.
